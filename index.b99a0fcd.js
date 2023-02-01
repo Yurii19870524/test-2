@@ -1,0 +1,2 @@
+const t=document.querySelector(".__select "),e=t.querySelector(".__select__title "),a=t.querySelectorAll(".__select__label");e.addEventListener("click",(()=>{"active"===t.getAttribute("data-state")?t.setAttribute("data-state",""):t.setAttribute("data-state","active")}));for(let r=0;r<a.length;r++)a[r].addEventListener("click",(a=>{e.textContent=a.target.textContent,t.setAttribute("data-state","")}));document.querySelector(".reset").addEventListener("click",(()=>{e.textContent=e.getAttribute("data-default")}));
+//# sourceMappingURL=index.b99a0fcd.js.map
