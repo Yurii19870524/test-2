@@ -35,3 +35,255 @@
 
   <div class="background"></div>
 </article>
+
+<!-- test -->
+
+<button class="button" type="button" data-modal-open>Order Service</button>
+<div class="container">
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close" data-modal-close>
+        <svg width="24" height="24">
+          <use href="./images/icons.svg.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <p class="modal-form-text">ЗАБРОНЮВАТИ НОМЕР</p>
+      <form class="modal-form">
+        <label class="modal-form-field">
+          <span class="modal-form-input-icons">
+            <input
+              type="text"
+              name="user_name"
+              class="modal-form-message"
+              required
+              pattern="^[a-zA-Zа-яА-Я]+"
+              placeholder="Ваше ім’я"
+            />
+          </span>
+          <span class="modal-form-input-desc">На кого забронювати номер?</span>
+        </label>
+
+        <div class="modal-form-div">
+          <label class="modal-form-field">
+            <span class="modal-form-input-icons">
+              <input
+                type="tel"
+                name="user_phone"
+                class="modal-form-message"
+                required
+                placeholder="+38 (___) ___-__-__"
+                pattern="^[0+9]+"
+              />
+            </span>
+            <span class="modal-form-input-desc">Номер телефону</span>
+          </label>
+
+          <label class="modal-form-field">
+            <div class="modal-form-input-icons">
+              <form class="modal-form-message">
+                <div class="__select" data-state="">
+                  <div class="__select__title" data-default="Option 0">
+                    Двомісний люкс
+                  </div>
+                  <div class="__select__content">
+                    <input
+                      id="singleSelect0"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                      checked
+                    />
+                    <label for="singleSelect0" class="__select__label"
+                      >Двомісний люкс</label
+                    >
+                    <input
+                      id="singleSelect1"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                    />
+                    <label for="singleSelect1" class="__select__label"
+                      >Двомісний люкс</label
+                    >
+                    <input
+                      id="singleSelect3"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                    />
+                    <label for="singleSelect3" class="__select__label"
+                      >Трьохмісний номер</label
+                    >
+                    <input
+                      id="singleSelect4"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                    />
+                    <label for="singleSelect4" class="__select__label"
+                      >Двомісний номер</label
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+            <span class="modal-form-input-desc">Категорія номеру</span>
+          </label>
+
+          <label class="modal-form-field">
+            <div class="modal-form-input-icons">
+              <form class="modal-form-messag">
+                <div class="__select __select__room" data-state="">
+                  <div
+                    class="__select__title __select__room__title"
+                    data-default="Option 0"
+                  >
+                    Сьогодні
+                  </div>
+                  <div class="__select__content">
+                    <input
+                      id="singleSelect0"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                      checked
+                    />
+                    <label
+                      for="singleSelect0"
+                      class="__select__label __select__room__label"
+                      >Сьогодні</label
+                    >
+                    <input
+                      id="singleSelect1"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                    />
+                    <label
+                      for="singleSelect1"
+                      class="__select__label __select__room__label"
+                      >Завтра</label
+                    >
+                    <!-- <input
+                    id="singleSelect2"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                    disabled
+                  /> -->
+                    <!-- <label for="singleSelect2" class="__select__label"
+                    >Option 2 (disabled)</label
+                  > -->
+                    <input
+                      id="singleSelect3"
+                      class="__select__input"
+                      type="radio"
+                      name="singleSelect"
+                    />
+                    <label
+                      for="singleSelect3"
+                      class="__select__label __select__room__label"
+                      >Сьогодні</label
+                    >
+                    <!-- <input
+                    id="singleSelect4"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label for="singleSelect4" class="__select__label"
+                    >Сьогодні</label
+                  > -->
+                  </div>
+                </div>
+              </form>
+            </div>
+            <span class="modal-form-input-desc">Дата заїзду</span>
+          </label>
+        </div>
+
+        <label class="modal-form-field modal-label">
+          <div class="modal-form-input-icons">
+            <form class="modal-form-messag">
+              <div class="__select" data-state="">
+                <div class="__select__title" data-default="Option 0">
+                  Сьогодні
+                </div>
+                <div class="__select__content">
+                  <input
+                    id="singleSelect0"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                    checked
+                  />
+                  <label for="singleSelect0" class="__select__label"
+                    >Сьогодні</label
+                  >
+                  <input
+                    id="singleSelect1"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label for="singleSelect1" class="__select__label"
+                    >Завтра</label
+                  >
+                  <!-- <input
+                    id="singleSelect2"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                    disabled
+                  /> -->
+                  <!-- <label for="singleSelect2" class="__select__label"
+                    >Option 2 (disabled)</label
+                  > -->
+                  <input
+                    id="singleSelect3"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label for="singleSelect3" class="__select__label"
+                    >Сьогодні</label
+                  >
+                  <!-- <input
+                    id="singleSelect4"
+                    class="__select__input"
+                    type="radio"
+                    name="singleSelect"
+                  />
+                  <label for="singleSelect4" class="__select__label"
+                    >Сьогодні</label
+                  > -->
+                </div>
+              </div>
+            </form>
+          </div>
+          <span class="modal-form-input-desc modal-form-input-margin"
+            >Дата Виїзду</span
+          >
+        </label>
+
+        <button type="submit" class="modal-form-submit">
+          <span class="modal-form-submit-button">ОФОРМИТИ БРОНЮВАННЯ</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- <select name="Сьогодні" class="modal-form-message">
+                <option class="modal-form-message" value="m" selected>
+                  Двомісний люкс
+                </option>
+                <option value="s">
+                  <p class="modal-form-message">Трьохмісний номер</p>
+                </option>
+                <option value="xl">Двомісний номер</option>
+                <option value="l"></option>
+              </select>
+              <svg class="modal-form-icons" width="24" height="24">
+                <use href="./images/icons.svg.svg#icon-Vector-V"></use>
+              </svg> -->
